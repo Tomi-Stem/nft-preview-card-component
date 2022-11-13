@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT CARD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstap.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit"> -->
+</head>
+<body>
+    
+<div class="card_div">
+
+
+
+<div class="img_div">
+    <div class="card_hover_effect" onmouseover="displayEye();"
+    onmouseleave="removeEye();">
+    <img id="display" src="images/icon-view.svg" alt="">
+</div>
+    </div>
+
+
+<div class="heading_div">
+    <h2>Equilibrium #3429</h2>
+</div>
+
+<div class="para_div">
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+</div>
+
+<div class="flex_div">
+
+    <div class="eth_div">
+        <span class="eth">0.041ETH</span>
+    </div>
+
+    <div class="time_div">
+        <span class="time">3</span>
+        <span class="days">days</span>
+        <span class="left">left</span>
+    </div>
+
+</div>
+
+<div class="line"></div>
+
+<div class="creator">
+<div class="avatar_div"></div>
+
+<div class="some_text">
+    <span class="first_text">Creation of</span>
+    <span class="second_text">Jules Wyvern</span>
+</div>
+</div>
+
+</div>
+
+<script>
+    function displayEye() {
+        document.getElementById('display').style = 'display:block';
+    }
+
+    function removeEye() {
+        document.getElementById('display').style = 'display:none';
+
+    }
+</script>
+</body>
+</html>
